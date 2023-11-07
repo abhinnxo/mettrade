@@ -101,8 +101,11 @@
     </style>
   </head>
   <body>
+    <!-- NAVBAR SECTION -->
+    <!-- DESKTOP VIEW -->
     <div
-      class="header2 mob w-nav"
+      style="background-color: white"
+      class="header2 w-nav"
       data-animation="default"
       data-collapse="medium"
       data-duration="400"
@@ -111,7 +114,10 @@
       role="banner"
     >
       <div class="header2-cont w-container">
-        <a class="brand-logo mob w-nav-brand" href="/"
+        <a
+          aria-current="page"
+          class="brand-logo mob w-nav-brand w--current"
+          href="/"
           ><img
             alt=""
             class="image-70"
@@ -119,12 +125,17 @@
             src="../images/mettrade-logo.png"
         /></a>
         <nav class="header2-navmenu w-nav-menu" role="navigation">
-          <div class="dropdown-8 w-dropdown" data-delay="0" data-hover="false">
+          <div class="dropdown w-dropdown" data-delay="0" data-hover="false">
             <div class="header2-navlink w-dropdown-toggle">
-              <div class="icon-10 w-icon-dropdown-toggle"></div>
-              <div class="header2-text other">Services</div>
+              <div class="icon-10 homepage w-icon-dropdown-toggle"></div>
+              <div
+                style="color: black !important"
+                class="header2-text other homepage"
+              >
+                Services
+              </div>
             </div>
-            <nav class="dropdown-list-3 w-dropdown-list">
+            <nav class="dropdown-list-3 other w-dropdown-list">
               <a class="header2-nav-link-drop w-dropdown-link" href="/buying"
                 >Buying</a
               ><a class="header2-nav-link-drop w-dropdown-link" href="/selling"
@@ -136,31 +147,112 @@
                 href="/logistics"
                 >Logistics</a
               ><a
-                aria-current="page"
-                class="header2-nav-link-drop w-dropdown-link w--current"
+                class="header2-nav-link-drop w-dropdown-link"
                 href="/cloud-factory"
                 >Scrap Cloud</a
               >
             </nav>
           </div>
-          <a class="header2-navlink other w-nav-link" href="/products"
+          <a
+            style="color: black !important"
+            class="header2-navlink w-nav-link"
+            href="/products"
             >Products</a
-          ><a class="header2-navlink other w-nav-link" href="/about-us"
+          >
+          <a
+            style="color: black !important"
+            class="header2-navlink w-nav-link"
+            href="/about-us"
             >About Us</a
+          >
+          <a
+            style="color: black !important"
+            class="header2-navlink w-nav-link"
+            href="/partners"
+            >Partners</a
+          >
+          <a
+            style="color: black !important"
+            class="header2-navlink w-nav-link"
+            href="#"
+            target="_blank"
+            >Blog</a
           >
         </nav>
         <div class="menu-button-3 w-nav-button">
-          <div class="icon-20 w-icon-nav-menu"></div>
+          <div class="icon-13 w-icon-nav-menu"></div>
         </div>
       </div>
     </div>
-    <a class="icon-link other-hide w-inline-block" href="/"
+    <!-- MOBILE VIEW -->
+    <div
+      style="background-color: white"
+      class="header2 mobile-3 w-nav"
+      data-animation="default"
+      data-collapse="medium"
+      data-duration="400"
+      data-easing="ease"
+      data-easing2="ease"
+      role="banner"
+    >
+      <div class="header2-cont w-container">
+        <a
+          aria-current="page"
+          class="brand-logo mob w-nav-brand w--current"
+          href="/"
+          ><img
+            alt=""
+            class="image-70"
+            loading="lazy"
+            src="../images/mettrade-logo.png"
+        /></a>
+        <nav class="header2-navmenu w-nav-menu" role="navigation">
+          <div class="dropdown w-dropdown" data-delay="0" data-hover="false">
+            <div class="navlink2 w-dropdown-toggle">
+              <div class="icon2 w-icon-dropdown-toggle"></div>
+              <div class="navlink2">Services</div>
+            </div>
+            <nav class="dropdown-list-3 other w-dropdown-list">
+              <a class="header2-nav-link-drop w-dropdown-link" href="/buying"
+                >Buying</a
+              ><a class="header2-nav-link-drop w-dropdown-link" href="/selling"
+                >Selling</a
+              ><a class="header2-nav-link-drop w-dropdown-link" href="/finance"
+                >Finance</a
+              ><a
+                class="header2-nav-link-drop w-dropdown-link"
+                href="/logistics"
+                >Logistics</a
+              ><a
+                class="header2-nav-link-drop w-dropdown-link"
+                href="/cloud-factory"
+                >Scrap Cloud</a
+              >
+              >
+            </nav>
+          </div>
+          <a class="navlink2 w-nav-link" href="/products">Products</a
+          ><a class="navlink2 w-nav-link" href="/about-us">About Us</a>
+          <a class="navlink2 w-nav-link" href="/partners">Partners</a>
+          <a class="navlink2 w-nav-link" href="#" target="_blank">Blog</a>
+        </nav>
+        <div class="menu-button-3 w-nav-button">
+          <div class="icon-13 w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+    <!-- HEADER IMAGE FOR MOBILE -->
+    <a
+      aria-current="page"
+      class="icon-link other-hide w-inline-block w--current"
+      href="/"
       ><img
         alt=""
         class="icon-png"
         loading="lazy"
         src="../images/mettrade-logo.png"
     /></a>
+    <!-- NAVBAR END -->
     <div class="privacty_policy-header hide">
       <div class="header-cont w-container">
         <div class="columns-8 w-row">
@@ -241,52 +333,60 @@
       <div class="service-hit-cont">
         <h1 class="service-hit-h2">How it works?</h1>
       </div>
-      <div class="footer-section">
-        <div class="footer-cont w-container">
-          <div class="footer-col w-row">
-            <div class="logo w-col w-col-3">
-              <img
-                alt=""
-                class="footer-logo"
-                loading="lazy"
-                src="../images/mettrade-logo.png"
-              /><a class="white-para" href=""
-                >8 Nelson St W, Brampton, ON L6X 1B7, Canada</a
-              >
-              <div class="address-content">
-                <a class="phone-number" href="tel:7838767136"
-                  >+1 (647) 760-1369, +91 98180 04499</a
-                >
-                <p class="white-para" style="margin-top: 5px">
-                  vivek@mcorio.com
-                </p>
-              </div>
-            </div>
-            <div class="nav1 w-col w-col-3">
-              <div class="nav-footer-col">
-                <a class="nav_links new" href="/buying">Buying</a
-                ><a class="nav_links new" href="/selling">Selling</a
-                ><a class="nav_links new" href="/finance">Finance</a
-                ><a class="nav_links new" href="/logistics">Logistics</a
-                ><a
-                  aria-current="page"
-                  class="nav_links new w--current"
-                  href="/cloud-factory"
-                  >Scrap Cloud</a
-                ><a class="nav_links new" href="/products">Products</a>
-              </div>
-              <div class="nav-footer-col">
-                <a class="nav_links new" href="/about-us">About Us</a
-                ><a class="nav_links new" href="/terms-conditions"
-                  >Terms &amp; Conditions</a
-                ><a class="nav_links new" href="/privacy-policy"
-                  >Privacy Policy</a
-                >
-              </div>
-            </div>
-            <div class="nav2 w-col w-col-3"></div>
-            <div class="join_metalbook hide-mobile w-col w-col-3"></div>
-          </div>
+      <div class="abhinn-footer">
+        <img
+          alt="brand-logo"
+          class=""
+          loading="lazy"
+          src="../images/mettrade-logo.png"
+        />
+        <div class="footer-flex">
+          <h3>Address</h3>
+          <a
+            class=""
+            style="font-size: 1rem; padding-bottom: 1rem"
+            href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x882b15ead4a4a307:0xae0d3055a0035e91?entry=s&sa=X&ved=2ahUKEwjstpHkgKWCAxU8xDgGHW50D-QQ4kB6BAgJEAA&hl=en-US"
+            target="_blank"
+            >8 Nelson St W, Brampton, ON L6X 1B7, Canada</a
+          >
+          <a
+            class=""
+            style="font-size: 1rem; padding-bottom: 1rem"
+            href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x882b15ead4a4a307:0xae0d3055a0035e91?entry=s&sa=X&ved=2ahUKEwjstpHkgKWCAxU8xDgGHW50D-QQ4kB6BAgJEAA&hl=en-US"
+            target="_blank"
+            >337 Churchill Rd. Pittsburgh, PA 15235
+          </a>
+          <p class="" style="font-size: 1rem; padding-bottom: 1rem">
+            +1 (647) 760-1369
+          </p>
+          <p class="" style="font-size: 1rem; padding-bottom: 1rem">
+             +1 (412) 612 0101
+          </p>
+          <p class="" style="font-size: 1rem; padding-bottom: 1rem">
+            +91 98180 04499
+          </p>
+          <p
+            class=""
+            style="font-size: 1rem; margin-top: 5px; letter-spacing: 2px"
+          >
+            vivek@mcorio.com
+          </p>
+        </div>
+        <div class="footer-flex">
+          <h3>Pages</h3>
+          <a class="" href="/buying">Buying</a
+          ><a class="" href="/selling">Selling</a
+          ><a class="" href="/finance">Finance</a
+          ><a class="" href="/logistics">Logistics</a
+          ><a class="" href="/cloud-factory">Scrap Cloud</a
+          ><a class="" href="/products">Products</a>
+          <a class="" href="/partners">Partners</a>
+        </div>
+        <div class="footer-flex">
+          <h3>Links</h3>
+          <a class="" href="/about-us">About Us</a
+          ><a class="" href="/terms-conditions">Terms &amp; Conditions</a
+          ><a class="" href="/privacy-policy">Privacy Policy</a>
         </div>
       </div>
     </div>

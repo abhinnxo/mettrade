@@ -1,0 +1,44 @@
+  <div class="footer-section">
+        <div class="footer-cont w-container">
+          <div class="footer-col w-row">
+            <div class="logo w-col w-col-3">
+              <img
+                alt=""
+                class="footer-logo"
+                loading="lazy"
+                src="./images/mettrade-logo.png"
+              /><a class="white-para" href=""
+                >8 Nelson St W, Brampton, ON L6X 1B7, Canada</a
+              >
+              <div class="address-content">
+                <a class="phone-number" href="tel:7838767136"
+                  >+1 (647) 760-1369, +91 98180 04499</a
+                >
+                <p class="white-para" style="margin-top: 5px">
+                  vivek@mcorio.com
+                </p>
+              </div>
+            </div>
+            <div class="nav1 w-col w-col-3">
+              <div class="nav-footer-col">
+                <a class="nav_links new" href="/buying">Buying</a
+                ><a class="nav_links new" href="/selling">Selling</a
+                ><a class="nav_links new" href="/finance">Finance</a
+                ><a class="nav_links new" href="/logistics">Logistics</a
+                ><a class="nav_links new" href="/cloud-factory">Scrap Cloud</a
+                ><a class="nav_links new" href="/products">Products</a>
+                <a class="nav_links new" href="/partners">Partners</a>
+              </div>
+              <div class="nav-footer-col">
+                <a class="nav_links new" href="/about-us">About Us</a
+                ><a class="nav_links new" href="/terms-conditions"
+                  >Terms &amp; Conditions</a
+                ><a class="nav_links new" href="/privacy-policy"
+                  >Privacy Policy</a
+                >
+              </div>
+            </div>
+            <div class="nav2 w-col w-col-3"></div>
+          </div>
+        </div>
+      </div>

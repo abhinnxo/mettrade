@@ -8503,6 +8503,8 @@ body {
   color: var(--white-2);
   margin-bottom: 32px;
   font-size: 18px;
+  line-height: 1.5;
+  max-width: 1000px;
 }
 
 .service-hero-cont {
@@ -10009,30 +10011,11 @@ body {
   height: 840px;
   object-fit: cover;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("https://assets-global.website-files.com/61c94b9bbabf7b8cbbd64e4e/639c6b0ebf582dff690cda80_Hero%20Slide%201.png");
   background-position: 50%;
-  background-repeat: repeat;
   background-size: cover;
-  overflow: visible;
-}
-
-.product-slide.slide-2 {
-  background-image: url("https://assets-global.website-files.com/61c94b9bbabf7b8cbbd64e4e/63a02eb1041f5f458eb134d6_flat-carbon-steel-img.png");
-}
-
-.product-slide.slide-3 {
-  background-image: url("https://assets-global.website-files.com/61c94b9bbabf7b8cbbd64e4e/63a02eb2041f5f3f33b134dd_long-carbon-steel-img.png");
-}
-
-.product-slide.slide-4 {
-  background-image: url("https://assets-global.website-files.com/61c94b9bbabf7b8cbbd64e4e/63a02e60041f5f29f3b132d2_recycling-market-img.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-}
-
-.product-slide.slide-5 {
-  background-image: url("https://assets-global.website-files.com/61c94b9bbabf7b8cbbd64e4e/639c6b0dd366184537562b4d_Hero%20Slide%205.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+  overflow: hidden;
 }
 
 .product-hero-slider {

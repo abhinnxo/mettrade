@@ -287,44 +287,49 @@ th {
 
 .w-icon-arrow-down:before,
 .w-icon-dropdown-toggle:before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid black; /* Change the color as needed */
-    margin-left: 5px; /* Adjust the spacing between text and arrow */
-    margin-top: 6.5px;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+  /* Change the color as needed */
+  margin-left: 5px;
+  /* Adjust the spacing between text and arrow */
+  margin-top: 6.5px;
 }
 
 .w-icon-arrow-down:before,
 .homepage-downarrow.w-icon-dropdown-toggle:before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid white; /* Change the color as needed */
-    margin-left: 5px; /* Adjust the spacing between text and arrow */
-    margin-top: 6.5px;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+  /* Change the color as needed */
+  margin-left: 5px;
+  /* Adjust the spacing between text and arrow */
+  margin-top: 6.5px;
 }
 
 @media only screen and (max-width: 990px) {
-  
-.w-icon-arrow-down:before,
-.w-icon-dropdown-toggle:before {
+
+  .w-icon-arrow-down:before,
+  .w-icon-dropdown-toggle:before {
     margin-top: 5px;
 
-   border-top: 5px solid black; 
-}
- .brand-logo {
-margin-left: auto !important;
-margin-right: auto !important;
-}
+    border-top: 5px solid black;
+  }
+
+  .brand-logo {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
 
 .w-icon-file-upload-remove:before {
@@ -1092,12 +1097,14 @@ textarea.w-select {
 
 @media screen and (max-width: 479px) {
   .hero-btns {
-  flex-direction: column;
+    flex-direction: column;
 
   }
-    .hero-btns a {
-      margin-bottom: 15px;
-    }
+
+  .hero-btns a {
+    margin-bottom: 15px;
+  }
+
   .w-container {
     max-width: none;
   }
@@ -1547,7 +1554,7 @@ textarea.w-select {
   white-space: nowrap;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  /* padding: 20px; */
   text-decoration: none;
   position: relative;
 }
@@ -1557,7 +1564,7 @@ textarea.w-select {
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
-  padding-right: 40px;
+  padding-right: 20px;
   display: inline-block;
 }
 
@@ -2060,6 +2067,8 @@ textarea.w-select {
 .w-nav-link {
   vertical-align: top;
   color: #222;
+  font-size: 16px;
+  font-weight: 400;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -2069,7 +2078,7 @@ textarea.w-select {
   position: relative;
 }
 
-.w-nav-link.w--current {
+.w-nav-link:hover {
   color: #0082f3;
 }
 
@@ -7274,7 +7283,7 @@ body {
 }
 
 .header2-nav-link-drop:hover {
-  color: #c21625;
+  color: #006cd0;
 }
 
 .header2-nav-link-drop.w--current {
@@ -7322,7 +7331,7 @@ body {
 }
 
 .header2-navlink:hover {
-  color: #c21625;
+  color: #006cd0;
 }
 
 .header2-navlink.other {
@@ -10013,8 +10022,8 @@ body {
   background-color: rgba(0, 0, 0, 0);
   background-position: 50%;
   background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center center;
   overflow: hidden;
 }
 
@@ -12154,19 +12163,22 @@ body {
   .image-79 {
     height: 65%;
   }
-.service {
-  width: 100% !important;
-}
+
+  .service {
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .services-col {
 
-  display: block;
-}
+    display: block;
+  }
+
   .infographic-img {
     width: 90%;
   }
+
   .body {
     max-width: 100vw;
     min-width: 100vw;
@@ -12901,8 +12913,8 @@ body {
 }
 
 @media screen and (max-width: 479px) {
-  
- 
+
+
   .container {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -15912,10 +15924,11 @@ body {
     margin-right: 5px;
   }
 
- .mobile-3{
+  .mobile-3 {
     display: none !important;
   }
 }
+
 #w-node-_016e6a08-8b60-917a-84b2-c9cd592b7303-0c097bb5 {
   grid-area: span 1 / span 1 / span 1 / span 1;
   align-self: stretch;
@@ -16189,10 +16202,11 @@ a {
     max-width: 90vw;
   }
 }
+
 .abhinn-global-prec {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
-max-width: 90%;
+  max-width: 90%;
 }

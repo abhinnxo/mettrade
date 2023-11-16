@@ -316,14 +316,17 @@ th {
   /* Adjust the spacing between text and arrow */
   margin-top: 6.5px;
 }
+.homepage-downarrow.w-icon-dropdown-toggle:before:hover {
+  border-top: 5px solid #006cd0;
+
+}
 
 @media only screen and (max-width: 990px) {
 
   .w-icon-arrow-down:before,
   .w-icon-dropdown-toggle:before {
     margin-top: 5px;
-
-    border-top: 5px solid black;
+    border-top: 5px solid black !important;
   }
 
   .brand-logo {
@@ -372,10 +375,10 @@ html.w-mod-touch * {
   display: block;
 }
 
-.w-inline-block {
+/* .w-inline-block {
   max-width: 100%;
-  display: inline-block;
-}
+  display: block;
+} */
 
 .w-clearfix:before,
 .w-clearfix:after {
@@ -7350,7 +7353,7 @@ body {
 }
 
 .header2-navmenu {
-  height: 60px;
+  height: fit-content;
   margin-top: 0;
   margin-right: 20%;
   position: absolute;
@@ -11333,7 +11336,15 @@ body {
   }
 }
 
+@media screen and (max-width: 479px) {
+ .w-dropdown-toggle {
+    padding: 0px !important ;
+  }
+}
 @media screen and (max-width: 991px) {
+  .w-dropdown-toggle {
+    padding: 20px;
+  }
   .image-29 {
     display: none;
   }
@@ -11513,7 +11524,7 @@ body {
 
   .header2-navmenu {
     width: 200px;
-    height: 240px;
+    height: fit-content;
     background-color: #fff;
     border-radius: 12px;
     margin-left: 20px;
@@ -11526,7 +11537,7 @@ body {
   }
 
   .header2-navmenu.first {
-    height: 230px;
+    height: fit-content;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     margin-left: 20px;
@@ -14776,12 +14787,12 @@ body {
   }
 
   .header2-navmenu {
-    height: 230px;
+    height: fit-content;
     border-radius: 12px;
   }
 
   .header2-navmenu.first {
-    height: 230px;
+    height: fit-content;
     border-radius: 12px;
     display: block;
     top: 0%;
